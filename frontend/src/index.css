@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
+
+/* Custom animated gradients and styles */
+.gradient-bg {
+  background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.08) 0%, rgba(99, 102, 241, 0.03) 50%, transparent 100%);
+}
+
+/* Custom scrollbar for beautiful UI */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-md hover:bg-slate-600 transition-colors;
+}
+
+/* Progress bar transitions */
+.transition-all-500 {
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
