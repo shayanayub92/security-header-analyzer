@@ -107,14 +107,3 @@ This project implements core security controls mapped directly to the **SY0-701 
    - **Content-Security-Policy (CSP)**: Primary defense-in-depth against **Cross-Site Scripting (XSS)** (Reflected, Stored, DOM-based) by limiting script source origins.
    - **X-Content-Type-Options**: Mitigation against **MIME-Sniffing** exploitation where media types are executed as code.
 
----
-
-## 💼 Resume Bullet Points
-
-Add this project to your security/software engineering portfolio with these impact statements:
-
-* "Developed a full-stack **Security Header Analyzer** web application using **FastAPI** (Python) and **React (Vite)** to audit HTTP server response headers for secure architecture alignment."
-* "Implemented automated heuristic analysis for **Content-Security-Policy (CSP)**, identifying wildcards, insecure HTTP sources, and `'unsafe-inline'` directives to prevent Cross-Site Scripting (XSS)."
-* "Created a detailed security grading system that assesses web protocol configuration rules mapped to **CompTIA Security+ SY0-701** guidelines, calculating a weighted security posture score (0-100)."
-* "Configured cross-origin controls by integrating **CORS middleware** between FastAPI and Vite dev server, demonstrating correct origin limitation parameters."
-* "Generated actionable fix recommendations (e.g. Nginx config blocks) for missing or weak headers, enabling rapid security remediation for web applications."
